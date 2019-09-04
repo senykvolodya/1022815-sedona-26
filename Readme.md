@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Владимир Сеник](https://up.htmlacademy.ru/htmlcss/26/user/1022815).
-* Наставник: `Неизвестно`.
+* Наставник: [Андрей Горбач](https://htmlacademy.ru/profile/lemberg).
 
 ---
 
