@@ -22,10 +22,10 @@
 
   <main>
 
-    <h1>Добро пожаловать в Седону</h1>
+    <h1 class="visually-hidden">Добро пожаловать в Седону</h1>
 
     <section>
-      <h2>5 причин, по которым Седона круче, чем Гранд Каньон!</h2>
+      <h2 class="visually-hidden">5 причин, по которым Седона круче, чем Гранд Каньон!</h2>
       <div>
         <img src="img/welcome.svg" width="459" height="353" alt="Добро пожаловать в Седону">
         <p>Седона — небольшой городок в Аризоне,
@@ -81,7 +81,7 @@
     </section>
 
     <section>
-      <h2>Поиск гостиницы</h2>
+      <h2 class="visually-hidden">Поиск гостиницы</h2>
       <p>Заинтересовались?</p>
       <p>Укажите предполагаемые даты поездки,
       и мы покажем вам лучшие предложения гостиниц в седоне</p>
@@ -110,6 +110,32 @@
       </a>
     </p>
   </footer>
+
+  <section>
+    <h2 class="visually-hidden">Поиск гостиницы в Cедоне</h2>
+    <form action="https://echo.htmlacademy.ru" method="post">
+      <p>
+        <label for="check-in-date">Дата заезда</label>
+        <input id="check-in-date" type="text" name="check-in-date" placeholder="24 Апреля 2017">
+      </p>
+      <p>
+        <label for="check-out-date">Дата выезда</label>
+        <input id="check-out-date" type="text" name="check-out-date" placeholder="4 Июля 2017">
+      </p>
+      <p>
+        <label for="adult-amount">Взрослые</label>
+        <input id="adult-amount" type="number" name="adult-amount" min="0">
+      </p>
+      <p>
+        <label for="children-amount">Дети</label>
+        <input id="children-amount" type="number" name="children-amount" min="0">
+      </p>
+      <button type="submit">
+        Найти
+      </button>
+    </form>
+  </section>
+
 
 </body>
 </html>
