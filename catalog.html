@@ -61,15 +61,17 @@
             </li>
           </ul>
         </fieldset>
-        <label>
-          <span>Стоимость в сутки(р):</span>
-        </label>
-        <input type="number" name="min-value" min="0" step="100" placeholder="От 0">
-        <input type="number" name="max-value" min="0" step="100" placeholder="До 3000">
-        <!-- Здесь будет двойной ползунок -->
-        <button type="submit">
-          Показать
-        </button>
+        <div>
+          <label>
+            <span>Стоимость в сутки(р):</span>
+          </label>
+          <input type="number" name="min-value" min="0" step="100" placeholder="От 0">
+          <input type="number" name="max-value" min="0" step="100" placeholder="До 3000">
+          <!-- Здесь будет двойной ползунок -->
+          <button type="submit">
+            Показать
+          </button>
+        </div>
       </form>
       <section>
         <h3 class="visually-hidden">Сортировка</h3>
@@ -81,8 +83,8 @@
           <li><a href="#">По рейтингу</a></li>
         </ul>
         <div>
-          <span><a href="#" aria-label="по убыванию">Стрелка</a></span>
-          <span><a href="#" aria-label="по возрастанию">Стрелка</a></span>
+          <a href="#" aria-label="по убыванию">Стрелка</a>
+          <a href="#" aria-label="по возрастанию">Стрелка</a>
         </div>
       </section>
     </section>
@@ -99,7 +101,7 @@
           <p>От 4000 Р.</p>
           <p>
             <a href="#">Подробнее</a>
-            <button type="button">Забронировать</button>
+            <a href="#">Забронировать</a>
           </p>
           <div>
             <p>4 звезды</p>
@@ -115,7 +117,7 @@
           <p>От 3000 Р.</p>
           <p>
             <a href="#">Подробнее</a>
-            <button type="button">Забронировать</button>
+            <a href="#">Забронировать</a>
           </p>
           <div>
             <p>3 звезды</p>
@@ -131,7 +133,7 @@
           <p>От 2000 Р.</p>
           <p>
             <a href="#">Подробнее</a>
-            <button type="button">Забронировать</button>
+            <a href="#">Забронировать</a>
           </p>
           <div>
             <p>2 звезды</p>
