@@ -25,11 +25,54 @@
     <h1>Гостиницы</h1>
 
     <section>
-      <h2>Поиск жилья</h2>
-      <!-- Здесь будет форма -->
-
+      <h2 class="visually-hidden">Поиск жилья</h2>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <fieldset>
+          <legend>Инфраструктура:</legend>
+          <ul>
+            <li>
+              <input type="checkbox" name="swimming-pool" id="filter-swimming-pool" checked>
+              <label for="filter-swimming-pool">Басейн</label>
+            </li>
+            <li>
+              <input type="checkbox" name="parking" id="filter-parking">
+              <label for="filter-parking">Парковка</label>
+            </li>
+            <li>
+              <input type="checkbox" name="Wi-fi" id="filter-Wi-fi">
+              <label for="filter-Wi-fi">Wi-fi</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Тип жилья:</legend>
+          <ul>
+            <li>
+              <input type="checkbox" name="hotel" id="filter-hotel" checked>
+              <label for="filter-hotel">Гостиница</label>
+            </li>
+            <li>
+              <input type="checkbox" name="motel" id="filter-motel" checked>
+              <label for="filter-motel">Мотель</label>
+            </li>
+            <li>
+              <input type="checkbox" name="apartments" id="filter-apartments" checked>
+              <label for="filter-apartments">Апартаменты</label>
+            </li>
+          </ul>
+        </fieldset>
+        <label>
+          <span>Стоимость в сутки(р):</span>
+        </label>
+        <input type="number" name="min-value" min="0" step="100" placeholder="От 0">
+        <input type="number" name="max-value" min="0" step="100" placeholder="До 3000">
+        <!-- Здесь будет двойной ползунок -->
+        <button type="submit">
+          Показать
+        </button>
+      </form>
       <section>
-        <h3>Сортировка</h3>
+        <h3 class="visually-hidden">Сортировка</h3>
         <p>Найдено: 3</p>
         <p>Сортировка:</p>
         <ul>
@@ -37,7 +80,10 @@
           <li><a href="#">По типу</a></li>
           <li><a href="#">По рейтингу</a></li>
         </ul>
-        <span>Две стрелочки</span>
+        <div>
+          <span><a href="#" aria-label="по убыванию">Стрелка</a></span>
+          <span><a href="#" aria-label="по возрастанию">Стрелка</a></span>
+        </div>
       </section>
     </section>
 
@@ -49,7 +95,7 @@
           <p>
             <img src="img/hotel.jpg" width="135" height="90" alt="Фотография гостиницы">
           </p>
-          <p> Гостиница</p>
+          <p>Гостиница</p>
           <p>От 4000 Р.</p>
           <p>
             <a href="#">Подробнее</a>
