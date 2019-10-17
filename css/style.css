@@ -1,0 +1,210 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 1200px;
+
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  font-weight: 700;
+  color: #000000;
+}
+
+.site-navigation a:hover {
+  color: #81B3D2;
+}
+
+.site-navigation a:focus {
+  color: #766357;
+}
+
+.site-navigation a:active {
+  color: #CACACA;
+}
+
+.benefits-slogan {
+  background: url(../img/background-photo.jpg);;
+  background-color: #DCEAF3;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.benefits h3 {
+  font-size: 21px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.benefits h3,
+.benefits p {
+  text-align: center;
+}
+
+.benefit-unit {
+  background-color: #81B3D2;
+  color: #ffffff;
+}
+
+.benefit-unit h3 {
+  color: #ffffff;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.features-list li {
+  text-align: center;
+}
+
+.benefits-list {
+  list-style: none;
+  background-color: #EEEEEE;
+}
+
+.search-headline {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+
+.search-text {
+  line-height: 24px;
+  text-align: center;
+}
+
+.button-modal {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: center;
+
+  background-color: #766357;
+  border: none;
+}
+
+.button-modal:hover {
+  background-color: #604E43;
+}
+
+.button-modal:active {
+  background-color: #503E33;
+  color: #928A85;
+}
+
+.search-form {
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 26px;
+  color: #000000;
+}
+
+.search-form input {
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #F2F2F2;
+  border: none;
+}
+
+.search-form input:hover {
+  background-color: #EBEBEB;
+}
+
+.search-form input:active {
+  background-color: #ffffff;
+  border: 2px solid #E5E5E5;
+}
+
+.button-search {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: center;
+
+  background-color: #81B3D2;
+  border: none;
+}
+
+.button-search:hover {
+  background-color: #669EC0;
+}
+
+.button-search:active {
+  background-color: #5496BD;
+  color: #94B9D2;
+}
+
+.map {
+  background-color: #F2F1EF;
+}
+
+.main-footer {
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+
+.footer-hashtag {
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.footer-copyright {
+  line-height: 26px;
+  color: #000000;
+  text-align: center;
+}
+
+
+
+
+
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
