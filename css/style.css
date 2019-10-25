@@ -176,23 +176,11 @@ img {
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
-  /*   color: #ffffff; */
   text-transform: uppercase;
   text-align: center;
   vertical-align: center;
-  /*   background-color: #766357; */
   border: none;
 }
-
-/* .button-modal:hover {
-  background-color: #604e43;
-  cursor: pointer;
-}
-
-.button-modal:active {
-  background-color: #503e33;
-  color: #928A85;
-} */
 
 .search-form {
   font-size: inherit;
@@ -224,28 +212,15 @@ img {
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
-  /*   color: #ffffff; */
   text-transform: uppercase;
   text-align: center;
   vertical-align: center;
-  /*   background-color: #81b3d2; */
   border: none;
 }
-
-/* .button-search:hover {
-  background-color: #669ec0;
-  cursor: pointer;
-}
-
-.button-search:active {
-  background-color: #5496bd;
-  color: #94b9d2;
-} */
 
 .map {
   background-color: #f2f1ef;
 }
-
 /* CATALOG */
 .site-navigation-current a {
   color: #766357;
@@ -384,33 +359,11 @@ img {
 
 .accommodation-info {
   font-weight: bold;
-  /*   color: #ffffff;
-background-color: #81b3d2; */
 }
-
-/* .accommodation-info:hover {
-  background-color: #669ec0;
-}
-
-.accommodation-info:active {
-  background-color: #5496bd;
-  color: #94b9d2;
-} */
 
 .accommodation-reserve {
   font-weight: bold;
-  /*   color: #ffffff;
-background-color: #766357; */
 }
-
-/* .accommodation-reserve:hover {
-  background-color: #604e43;
-}
-
-.accommodation-reserve:active {
-  background-color: #503e33;
-  color: #928a85;
-} */
 
 .rating-mark {
   color: #666666;
@@ -435,22 +388,6 @@ background-color: #766357; */
 .footer-social ul {
   list-style: none;
 }
-
-/* .social-button {
-  background-color: #81b3d2;
-}
-
-.social-button:hover {
-  background-color: #669ec0;
-}
-
-.social-button:active {
-  background-color: #5496bd;
-}
-
-.social-button:active img {
-  opacity: 0.3;
-} */
 
 .footer-copyright {
   line-height: 26px;
