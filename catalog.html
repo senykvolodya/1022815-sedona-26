@@ -63,12 +63,18 @@
           </ul>
         </fieldset>
         <div class="price-range">
-          <label>
+          <legend>
             <span>Стоимость в сутки(р):</span>
-          </label>
+          </legend>
           <div class="price-input">
-            <input class="price-input-range" type="number" name="min-value" min="0" step="100" value="0">
-            <input class="price-input-range" type="number" name="max-value" min="0" step="100" value="3000">
+            <label>
+              <span class="visually-hidden">Min value</span>
+              <input class="price-input-range" type="number" name="min-value" min="0" step="100" value="0">
+            </label>
+            <label>
+              <span class="visually-hidden">Min value</span>
+              <input class="price-input-range" type="number" name="max-value" min="0" step="100" value="3000">
+            </label>
           </div>
           <!-- Здесь будет двойной ползунок -->
           <button class="button-show-up" type="submit">
@@ -103,11 +109,11 @@
       <h2 class="visually-hidden">Список жилья</h2>
       <ul class="accommodation-list">
         <li class="accommodation-item">
+          <div class="accommodation-image image">
+            <img src="img/hotel.jpg" width="135" height="90" alt="Фотография гостиницы">
+          </div>
           <div class="accommodation-container">
             <a class="accommodation-header link" href="#">Amara Resort & Spa</a>
-            <div class="accommodation-image image">
-              <img src="img/hotel.jpg" width="135" height="90" alt="Фотография гостиницы">
-            </div>
             <div class="accommodation-details">
               <p class="accommodation-type">Гостиница</p>
               <p class="accommodation-price">От 4000 Р.</p>
@@ -128,11 +134,11 @@
           </div>
         </li>
         <li class="accommodation-item">
+          <div class="accommodation-image image">
+            <img src="img/motel.jpg" width="135" height="90" alt="Фотография мотеля">
+          </div>
           <div class="accommodation-container">
             <a class="accommodation-header link" href="#">Desert Quail Inn</a>
-            <p class="accommodation-image image">
-              <img src="img/motel.jpg" width="135" height="90" alt="Фотография мотеля">
-            </p>
             <div class="accommodation-details">
               <p class="accommodation-type">Мотель</p>
               <p class="accommodation-price">От 3000 Р.</p>
@@ -152,11 +158,11 @@
           </div>
         </li>
         <li class="accommodation-item">
+          <div class="accommodation-image image">
+            <img src="img/apartments.jpg" width="135" height="90" alt="Фотография апартаментов">
+          </div>
           <div class="accommodation-container">
             <a class="accommodation-header link" href="#">Villas at Poco Diablo</a>
-            <p class="accommodation-image image">
-              <img src="img/apartments.jpg" width="135" height="90" alt="Фотография апартаментов">
-            </p>
             <div class="accommodation-details">
               <p class="accommodation-type">Апартаменты</p>
               <p class="accommodation-price">От 2000 Р.</p>
