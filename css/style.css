@@ -160,7 +160,7 @@ img {
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: 61px 300px 0;
+  padding: 61px 300px 50px;
 }
 
 .benefits-title h3 {
@@ -173,7 +173,6 @@ img {
 
 .benefits-title p {
   margin: 0;
-  margin-bottom: 56px;
 }
 
 .benefit-unit {
@@ -187,7 +186,7 @@ img {
   display: flex;
   flex-direction: column;
   width: 400px;
-  padding: 46px 60px 0;
+  padding: 40px 60px 0;
 }
 
 .benefit-unit-text * {
@@ -201,8 +200,16 @@ img {
   margin: 0 auto 30px;
 }
 
+.benefit-unit-text p {
+  margin-bottom: 10px;
+}
+
 .benefit-unit-text p:first-of-type {
   margin-bottom: 30px;
+}
+
+.benefit-unit-text p:last-of-type {
+  margin-bottom: 50px;
 }
 
 .benefit-unit-image {
@@ -214,9 +221,8 @@ img {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  padding: 56px 63px 0;
+  padding: 56px 63px 70px;
   margin: 0;
-  min-height: 330px;
 }
 
 .feature-item {
@@ -242,6 +248,10 @@ img {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.feature-item p {
+  margin-bottom: 10px;
 }
 
 .benefit-unit-text.backward {
@@ -274,12 +284,19 @@ img {
   margin: 0 55px 30px;
 }
 
+.benefit-item p {
+  margin-bottom: 10px;
+}
+
 .benefit-item p:first-of-type {
   margin-bottom: 30px;
 }
 
+.benefit-item p:last-of-type {
+  margin-bottom: 60px;
+}
+
 .search {
-  min-height: 291px;
   display: flex;
   flex-direction: column;
   padding: 57px 316px 0;
@@ -303,7 +320,7 @@ img {
   line-height: 24px;
   text-align: center;
   width: 434px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
 }
 
 .button-modal {
@@ -313,14 +330,12 @@ img {
   text-transform: uppercase;
   text-align: center;
   border: none;
-  margin-top: auto;
   width: 568px;
-  height: 86px;
+  padding: 30px;
 }
 
 .modal {
   width: 568px;
-  height: 395px;
   margin: 0 auto;
   padding: 50px;
   box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
@@ -335,7 +350,19 @@ img {
 
 .search-form * {
   margin: 0;
-  padding: o;
+  padding: 0;
+}
+
+.search-form p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 30px;
+}
+
+.search-form label {
+  width: 95px;
+  word-break: break-word;
 }
 
 .search-form input {
@@ -346,33 +373,27 @@ img {
   text-transform: uppercase;
   background-color: #f2f2f2;
   border: none;
-  margin: 0 0 30px 20px;
   width: 346px;
-  height: 38px;
+  padding: 5px 15px;
 }
 
 .search-people-amount {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
 
-.search-people-amount p:first-child input {
+.search-people-amount p {
+  margin: 0;
+  flex-grow: 1;
+}
+
+.search-people-amount input {
   width: 114px;
-  margin: 0 0 53px 41px;
 }
 
 .search-people-amount p:last-child label {
-  margin-left: 53px;
-}
-
-.search-people-amount p:last-child input {
-  width: 114px;
-}
-
-.button-search {
-  padding: 0;
-  margin: 0;
-  width: 458px;
-  height: 58px;
+  text-align: end;
 }
 
 .search-form input:hover {
@@ -390,12 +411,13 @@ img {
   line-height: 26px;
   text-transform: uppercase;
   text-align: center;
-  vertical-align: center;
   border: none;
+  width: 465px;
+  padding: 20px;
 }
 
 .map {
-  background-col or: #f2f1ef;
+  background-color: #f2f1ef;
 }
 
 .map img {
@@ -442,7 +464,7 @@ img {
   width: 140px;
 }
 
-.filter-checkbox {
+.filter-option {
   margin-bottom: 23px;
 }
 
@@ -465,17 +487,15 @@ img {
   margin-left: auto;
 }
 
-.price-range label {
+.price-range legend {
   margin-bottom: 13px;
-}
-
-.price-range span {
-  font-size: 16px;
-  font-weight: bold;
 }
 
 .price-input {
   margin-bottom: 58px;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  padding: 5px;
 }
 
 .price-input-range {
@@ -483,10 +503,8 @@ img {
   line-height: 21px;
   color: #fff;
   text-align: center;
-  vertical-align: center;
   background-color: transparent;
-  border: 1px solid #ffffff;
-  border-radius: 2px;
+  border: none;
 }
 
 .button-show-up {
@@ -499,8 +517,8 @@ img {
   border: 1px solid #ffffff;
   border-radius: 2px;
   width: 133px;
-  height: 32px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
+  padding: 5px;
 }
 
 .button-show-up:hover {
@@ -553,14 +571,17 @@ img {
   border: none;
 }
 
-.sort-value-item a {
-  margin-left: 33px;
+.sort-value-item.current {
+  margin-left: 40px;
 }
 
 .sort-value-item.current a {
   color: #81b3d2;
   border: none;
-  margin-left: 40px;
+}
+
+.sort-value-item {
+  margin-left: 33px;
 }
 
 .arrows {
@@ -597,10 +618,14 @@ img {
 .accommodation-item {
   border-bottom: 1px solid #e5e5e5;
   display: flex;
+  align-items: center;
   min-height: 150px;
   position: relative;
-  padding: 30px 72px 30px 235px;
-  justify-content: space-between;
+  padding: 30px 72px 30px 73px;
+}
+
+.accommodation-container {
+  margin-left: 30px;
 }
 
 .accommodation-container * {
@@ -612,12 +637,6 @@ img {
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
-}
-
-.accommodation-image {
-  position: absolute;
-  top: 30px;
-  left: 72px;
 }
 
 .accommodation-image img {
@@ -640,20 +659,28 @@ img {
 .accommodation-info {
   font-weight: bold;
   width: 110px;
-  height: 27px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 4px;
+  word-break: break-word;
+  text-align: center;
 }
 
 .accommodation-reserve {
   font-weight: bold;
   width: 141px;
-  height: 27px;
   margin-left: 6px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 4px;
+  word-break: break-word;
+  text-align: center;
+}
+
+.accommodation-rating {
+  margin-left: auto;
 }
 
 .accommodation-rating * {
@@ -679,8 +706,9 @@ img {
   background-color: rgba(255, 255, 255, 0.9);
   display: flex;
   min-height: 120px;
-  padding: 36px 101px 0 132px;
+  padding: 36px 101px 36px 132px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer-hashtag {
@@ -689,12 +717,13 @@ img {
   line-height: 26px;
   color: #000000;
   display: flex;
-  align-items: flex-end;
-  margin: 0 0 48px;
+  align-items: center;
+  margin: 0;
 }
 
 .footer-social {
   text-align: center;
+  width: 300px;
 }
 
 .footer-social ul {
@@ -703,13 +732,18 @@ img {
   align-items: center;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-social li {
+  margin: 0 0 6px 6px;
 }
 
 .social-button {
   display: flex;
   width: 46px;
   height: 48px;
-  margin: 0 0 6px 6px;
 }
 
 .social-button img {
@@ -721,7 +755,7 @@ img {
   color: #000000;
   display: flex;
   align-items: center;
-  margin: 0 0 35px;
+  margin: 0;
 }
 
 .footer-copyright a {
