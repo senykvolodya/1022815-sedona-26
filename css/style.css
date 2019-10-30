@@ -239,6 +239,7 @@ input[type=number]::-webkit-outer-spin-button {
   list-style: none;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 56px 63px 70px;
   margin: 0;
 }
@@ -282,8 +283,8 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0;
   padding: 50px 75px;
   display: flex;
-  min-height: 256px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .benefit-item * {
@@ -392,6 +393,7 @@ input[type=number]::-webkit-outer-spin-button {
 .search-form label {
   width: 95px;
   word-break: break-word;
+  cursor: pointer;
 }
 
 .search-form input {
@@ -531,6 +533,9 @@ input[type=number]::-webkit-outer-spin-button {
 
 .filter-option label {
   padding-left: 40px;
+  word-break: break-word;
+  display: flex;
+  align-items: center;
   cursor: pointer;
 }
 
@@ -647,11 +652,11 @@ input[type=number]::-webkit-outer-spin-button {
   box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
   cursor: pointer;
   box-sizing: content-box;
+  transition: 0.2s;
 }
 
 .range-toggle:hover {
-  top: -10px;
-  border: 9px solid #ffffff;
+  transform: scale(1.1);
 }
 
 .range-toggle-min {
@@ -675,6 +680,7 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0 auto 30px;
   padding: 5px;
   cursor: pointer;
+  transition: 0.2s;
 }
 
 .button-show-up:hover {
@@ -707,6 +713,12 @@ input[type=number]::-webkit-outer-spin-button {
   margin-left: 49px;
 }
 
+.sort-value {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 700px;
+}
+
 .sort-value li {
   list-style: none;
 }
@@ -716,6 +728,7 @@ input[type=number]::-webkit-outer-spin-button {
   line-height: 18px;
   color: #cacaca;
   border-bottom: 1px dotted #81b3d2;
+  transition: 0.2s;
 }
 
 .sort-value-item a:hover {
@@ -768,7 +781,12 @@ input[type=number]::-webkit-outer-spin-button {
   padding: 30px 72px 30px 73px;
 }
 
+.accommodation-image {
+  flex-shrink: 0;
+}
+
 .accommodation-container {
+  max-width: 500px;
   margin-left: 30px;
 }
 
@@ -920,10 +938,8 @@ input[type=number]::-webkit-outer-spin-button {
   display: flex;
   width: 46px;
   height: 48px;
-}
-
-.social-button img {
-  margin: auto;
+  text-align: center;
+  justify-content: center;
 }
 
 .footer-copyright {
