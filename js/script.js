@@ -14,6 +14,8 @@ function initMap() {
 var modal = document.querySelector('.modal');
 var modalButton = document.querySelector('.button-modal');
 
+modal.classList.remove('modal-show');
+
 modalButton.addEventListener('click', function () {
   modal.classList.toggle('modal-show');
 });
