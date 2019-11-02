@@ -39,7 +39,8 @@
         <div class="benefit-unit-text">
           <h3>Настоящий городок</h3>
           <p>— №1 —</p>
-          <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+          <p>Седона — не аттракцион для туристов,
+           там течёт своя жизнь</p>
         </div>
         <div class="benefit-unit-image">
           <img src="img/main-photo-1.jpg" width="800" height="256" alt="Фотография местности">
@@ -92,7 +93,8 @@
         <li class="benefit-item">
           <h3>Мало туристов</h3>
           <p>— №5 —</p>
-          <p>Большинство едет в гранд каньон и толпится там</p>
+          <p>Большинство едет в гранд каньон
+           и толпится там</p>
         </li>
       </ul>
     </section>
@@ -140,7 +142,7 @@
               </svg>
             </button>
             <label for="adult-amount">Взрослые:</label>
-            <input class="search-adult-amount" id="adult-amount" type="number" name="adult-amount" min="1" value="2">
+            <input class="search-adult-amount arrows-remove" id="adult-amount" type="number" name="adult-amount" min="1" value="2">
           </p>
           <p>
             <button class="minus-button button-people-amount" type="button">
@@ -155,7 +157,7 @@
               </svg>
             </button>
             <label for="children-amount">Дети:</label>
-            <input class="search-children-amount" id="children-amount" type="number" name="children-amount" min="0" value="0">
+            <input class="search-children-amount arrows-remove" id="children-amount" type="number" name="children-amount" min="0" value="0">
           </p>
         </div>
         <button class="button-search button-blue" type="submit">
@@ -166,8 +168,9 @@
     <section class="map">
       <h2 class="visually-hidden">Карта</h2>
       <a href="http://bit.do/visitsedona" target="_blank">
-        <img src="img/map.jpg" width="1200" height="593" alt="Местоположение Седоны на карте">
+      <img src="img/map.jpg" width="1200" height="593" alt="Местоположение Седоны на карте">
       </a>
+      <div id="map"></div>
     </section>
   </main>
   <footer class="main-footer footer-index">
@@ -212,6 +215,9 @@
       </a>
     </p>
   </footer>
+  <script src="js/script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDluwBfvy_M346vmyhvVLD62kK76nnVtss&callback=initMap"
+          async defer></script>
 </body>
 
 </html>
